@@ -1,0 +1,9 @@
+version: '3'
+services:
+  pack-linux:
+    build:
+      context: .
+      dockerfile: ./docker/pack/linux.Dockerfile
+    volumes:
+       - .:/game/code
+       - ./packs:/game/packs
