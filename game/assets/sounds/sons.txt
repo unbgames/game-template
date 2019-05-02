@@ -1,0 +1,3 @@
+Esta pasta deve conter os arquivos de áudio utilizados no jogo.
+
+Obs: Excluir este txt antes de empacotar.

@@ -1,0 +1,3 @@
+Esta pasta deve conter os includes que fazem parte da engine do jogo.
+
+Obs: Excluir este txt antes de empacotar.

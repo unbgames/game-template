@@ -18,17 +18,16 @@
 
 ## Gallery:
 ### Cover Image:
-   <p align="center"><img width="400"src="https://github.com/unbgames/unbgames/blob/issue_9/img_tmp/pac1.png"></p>
+   <p align="center"><img width="400"src="https://github.com/unbgames/game-template/blob/master/gallery_img/cover_image/game5.jpg"></p>
 
 ### Carousel Gallery:
-   <p align="center"><img width="400"src="https://github.com/unbgames/unbgames/blob/issue_9/img_tmp/pac1.png"></p>
-   <p align="center"><img width="400"src="https://github.com/unbgames/unbgames/blob/issue_9/img_tmp/pac2.jpg"></p>
-   <p align="center"><img width="400"src="https://github.com/unbgames/unbgames/blob/issue_9/img_tmp/pac3.jpg"></p>
+   <p align="center"><img width="400"src="https://github.com/unbgames/game-template/blob/master/gallery_img/carousel_gallery/game2.jpeg"></p>
+   <p align="center"><img width="400"src="hhttps://github.com/unbgames/game-template/blob/master/gallery_img/carousel_gallery/game3.jpg"></p>
+   <p align="center"><img width="400"src="https://github.com/unbgames/game-template/blob/master/gallery_img/carousel_gallery/game4.png"></p>
 
 ### Image Gallery:
-   <p align="center"><img width="400"src="https://github.com/unbgames/unbgames/blob/issue_9/img_tmp/pac3.jpg"></p>
-   <p align="center"><img width="400"src="https://github.com/unbgames/unbgames/blob/issue_9/img_tmp/pac2.jpg"></p>
-   <p align="center"><img width="400"src="https://github.com/unbgames/unbgames/blob/issue_9/img_tmp/pac1.png"></p>
+   <p align="center"><img width="400"src="https://github.com/unbgames/game-template/blob/master/gallery_img/image_gallery/game6.jpg"></p>
+   <p align="center"><img width="400"src="https://github.com/unbgames/game-template/blob/master/gallery_img/image_gallery/game7.jpg"></p>
 
 ## Genre:
    - Rpg

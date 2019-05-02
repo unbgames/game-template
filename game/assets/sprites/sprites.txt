@@ -1,0 +1,3 @@
+Esta pasta deve conter as sprites utilizadas no jogo.
+
+Obs: Excluir este txt antes de empacotar.
