@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0.2)
 
-project(conspiracy LANGUAGES CXX)
-set(GAME_NAME nome_do_jogo)
+project(game LANGUAGES CXX)
+set(GAME_NAME myawesomegame)
 
 option(RELEASE_BUILD "Release build" OFF)
 
@@ -89,7 +89,7 @@ set(CPACK_PACKAGE_VENDOR              "UnB - FGA")
 set(CPACK_RESOURCE_FILE_LICENSE       "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE")
 set(CPACK_PACKAGE_VERSION_MAJOR       "1")
 set(CPACK_PACKAGE_VERSION_MINOR       "0")
-set(CPACK_PACKAGE_CONTACT             "Contato <email@gmail.com>")
+set(CPACK_PACKAGE_CONTACT             "Matheus Faria <matheusfaria@unb.br>")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Base game project of IJE")
 set(CPACK_PACKAGE_DESCRIPTION         "Base game project of IJE with all the contents that a game needs to be developed on the course")
 set(CPACK_PACKAGE_URL                 "https://unbgames.github.io")
@@ -106,4 +106,3 @@ set(CPACK_RPM_PACKAGE_LICENSE  "MIT")
 set(CPACK_RPM_PACKAGE_URL      ${CPACK_PACKAGE_URL})
 set(CPACK_RPM_PACKAGE_REQUIRES "SDL2, SDL2_image, SDL2_mixer, SDL2_ttf")
 include (CPack)
-

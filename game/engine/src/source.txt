@@ -1,3 +1,0 @@
-Esta pasta deve conter os arquivos fonte '.cpp' da engine do jogo.
-
-Obs: Excluir este txt antes de empacotar.
