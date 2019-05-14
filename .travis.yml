@@ -10,11 +10,12 @@ branches:
         - master
         - devel
 
-before_script:
-    - chmod +x scripts/run_scripts.sh
-    - npm install
-    - npm i -g markdown-to-json
-    - pip install -r requirements.txt
+# before_script:
+    # - chmod +x scripts/run_scripts.sh
+    # - npm install
+    # - npm i -g markdown-to-json
+    # - pip install -r requirements.txt
 
-script:
-    - ./scripts/run_scripts.sh
+ script:
+    # - ./scripts/run_scripts.sh
+    ls
