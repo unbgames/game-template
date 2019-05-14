@@ -1,0 +1,30 @@
+sudo: required
+
+language: python
+
+python:
+    - '3.6'
+
+  deploy:
+     provider: releases
+     # file:
+     #     - file1
+     #     - file2
+     #     - ...
+     skip_cleanup: true
+     on:
+        repo: unbgames/game-template
+         tags: true
+branches:
+    only:
+        - master
+        - devel
+
+before_script:
+    - chmod +x scripts/run_scripts.sh
+    - npm install
+    - npm i -g markdown-to-json
+    - pip install -r requirements.txt
+
+script:
+    - ./scripts/run_scripts.sh
