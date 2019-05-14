@@ -5,16 +5,6 @@ language: python
 python:
     - '3.6'
 
-  deploy:
-     provider: releases
-     # file:
-     #     - file1
-     #     - file2
-     #     - ...
-     skip_cleanup: true
-     on:
-        repo: unbgames/game-template
-         tags: true
 branches:
     only:
         - master
