@@ -1,15 +1,7 @@
-sudo: required
-
-language: python
-
-python:
-    - '3.6'
-
 branches:
     only:
         - TravisTest
 
 script:
-    - echo teste
-    - python increment_version.py
-
+        - VERSION=`git rev-list --count HEAD`
+        - echo versão atual em 1.$VERSION
