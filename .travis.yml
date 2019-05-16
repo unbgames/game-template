@@ -7,14 +7,9 @@ python:
 
 branches:
     only:
-        - master
-        - devel
-
-before_script:
-    - chmod +x scripts/run_scripts.sh
-    - npm install
-    - npm i -g markdown-to-json
-    - pip install -r requirements.txt
+        - TravisTest
 
 script:
-    - ./scripts/run_scripts.sh
+    - echo teste
+    - python increment_version.py
+
