@@ -4,14 +4,13 @@ language: python
 python:
 - '3.6'
 
-script:
-- docker-compose up # Packaging game to Debian
-
 # Make release trigged by a git tag
 deploy:
     provider: releases
     api_key:
         secure: MnWvVIEnFIHWB55Gj7tBrWv/YpzunrVloxG+0pQHf2P7lWWOHSWKXhj6TK8KsB+3VV8NBHHRWoC+CRE/l+wRDiE1MMBiU++XD4RnYNLSjb3/TyP96fGK1FOi01ZqpYiXbidVXxAN7t3h2vGl3miQ1n6ea47oduhACc3WSMFq6DLGIIten649xxi1J3zo65XTyYbMnq8TbCuJ1WV1Krd4zbB75gHEA1B19j8onGFczYDIRW2tXFXBTZvkbQDtj8rGJvIGsUtW2D9tkoumt4WSImqit/lVXriaRTMhiupluurpeVm2fP2JavtaQxgC7fSAkgG8UHge3mRpG/CcL9GcgzFy+lck9wcQ6k9QHPrh5qsRUk1Ye4Px2G6svIYvRFtmAQhsBVcS2ptreDGfBjyK9WkeSVxN2kepLxAZRDuDriX+e1LwNkVlOgnNzB4CQPO9apm8gPkENjJ31R82iXTN8ZSLX3DbEJEZ4rNYNynqYomtqejQEldB9XjNEAOxWYevhyZ1pfDLlvupNtr3u3Syh7sClJYFTlx/B9SWhBepG8YGnxj4BnMXCmnopcpFqPz5t0KXCsmymTTShZjjjlcxAcHx8zTnsgkZl7pQ0J5uFJC7wrHs28XnKyOnpAYaRZ++xWozM2CeoIhIlSiXQHOsQH2YNc6Np/r3BQtah8ZBKCw=
+    script:
+        - docker-compose up # Packaging game to Debian
     file:
         - packs/myawesomegame-1.0.1-1.i386.rpm
         - packs/myawesomegame-1.0.1-1.x86_64.rpm
