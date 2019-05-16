@@ -5,7 +5,7 @@ python:
 - '3.6'
 
 script:
-- docker-compose up
+- docker-compose up # Packaging game to Debian
 
 # Make release trigged by a git tag
 deploy:
