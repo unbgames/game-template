@@ -23,8 +23,3 @@ deploy:
         branch: devel
         tags: true
 
-branches:
-  only:
-  - master
-  - devel
-
