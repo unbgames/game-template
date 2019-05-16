@@ -5,7 +5,7 @@ python:
 - '3.6'
 
 script:
-- docker-compose up # Packaging game to Debian
+- bash paking_script.sh # Packaging game to Debian
 
 # Make release trigged by a git tag
 deploy:
@@ -19,7 +19,6 @@ deploy:
         - packs/myawesomegame_1.0.1-1_i386.deb
     skip_cleanup: true
     on:
-        repo: unbgames/game-template
-        branch: devel
+        repo: $REPO_NAME
+        branch: empacotamento
         tags: true
-
