@@ -1,17 +1,11 @@
 sudo: required
 
-language: python
-python:
-- '3.6'
-
-script:
-- docker-compose up # Packaging game to Debian
-
-# Make release trigged by a git tag
+# Make release trigged by a tagged commit
 deploy:
     provider: releases
     api_key:
         secure: $DEPLOYMENT_KEY
+    script: bash paking_script.sh
     file:
         - packs/myawesomegame-1.0.1-1.i386.rpm
         - packs/myawesomegame-1.0.1-1.x86_64.rpm
