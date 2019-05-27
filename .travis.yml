@@ -1,11 +1,6 @@
 sudo: required
 
-language: python
-python:
-    - '3.6'
-
-install:
-    - pip install -r requirements.txt
+language: generic
 
 # Make release trigged by a tagged commit
 deploy:
