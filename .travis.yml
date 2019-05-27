@@ -14,6 +14,6 @@ deploy:
     skip_cleanup: true
     on:
         repo: $REPO_NAME
-        branch: devel
+        branch: empacotamento
         tags: true
 
