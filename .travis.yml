@@ -1,5 +1,9 @@
 sudo: required
 
+language: python
+python:
+- '3.6'
+
 # Make release trigged by a tagged commit
 deploy:
     provider: releases
