@@ -11,7 +11,7 @@ script:
 deploy:
     provider: releases
     api_key:
-        secure: DEPLOYMENT_KEY
+        secure: $DEPLOYMENT_KEY
     file:
         - packs/myawesomegame-1.0.1-1.i386.rpm
         - packs/myawesomegame-1.0.1-1.x86_64.rpm
@@ -19,6 +19,6 @@ deploy:
         - packs/myawesomegame_1.0.1-1_i386.deb
     skip_cleanup: true
     on:
-        repo: REPO_NAME
+        repo: $REPO_NAME
         branch: empacotamento
         tags: true
