@@ -7,6 +7,8 @@ run apt-get update && \
 
 run apt-get install -y rpm
 
+run apt-get install nsis
+
 run mkdir -p /game/build/game /game/code /game/packs
 
 add . /game/code
@@ -17,3 +19,5 @@ cmd cd /game/build/game && cmake -DRELEASE_BUILD=ON /game/code && make          
     cpack --config CPackConfig.cmake -G RPM -D CPACK_RPM_PACKAGE_ARCHITECTURE=i386     && \
     cpack --config CPackConfig.cmake -G RPM -D CPACK_RPM_PACKAGE_ARCHITECTURE=x86_64   && \
 cp *.rpm *.deb /game/packs
+
+cmd makensis windows_pack.nsi
