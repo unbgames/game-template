@@ -1,10 +1,8 @@
 # Instruções para execução do Job de empacotamento para Windows
 
-1. Compile o jogo dentro da pasta build do repositório.
+1. Após compilar o jogo no Windows e gerar o executável (.exe), faça o *push* do arquivo .exe dentro da pasta build do repositório.
 
-2. Após compilar o jogo no Windows e gerar o executável (.exe), faça o *push* do compilado.
-
-3. Dentro da pasta "build" há um subdiretório chamado "libs", onde deverão ser colocadas as DLLs extras utilizadas na compilação do jogo. Note que as DLL padrões do SDL já estão lá dentro.
+2. Dentro da pasta "build" há um subdiretório chamado "libs", onde deverão ser colocadas as DLLs extras utilizadas na compilação do jogo. Note que as DLL padrões do SDL já estão lá dentro.
 
 
 # Instruções para alteração das informações do instalador do jogo
