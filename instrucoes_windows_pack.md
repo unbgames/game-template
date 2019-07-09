@@ -8,3 +8,5 @@
 # Instruções para alteração das informações do instalador do jogo
 
 1. Basta acessar o arquivo de configuração **config_windows_pack.nsh** e alterar os nomes das variáveis para os desejados. Atente-se às regras de nomenclatura em strings, pois as variáveis só aceitam valores que possuam caracteres númericos, alfanuméricos e "_".
+
+Obs. O executavel "mindscape.exe" na pasta "build" é o exemplo utilizado. Basta deletar o arquivo e substituir pelo executável do seu jogo.
