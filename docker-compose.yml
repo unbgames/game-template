@@ -7,3 +7,4 @@ services:
     volumes:
        - .:/game/code
        - ./packs:/game/packs
+       - ./build:/game/empacotamento

@@ -7,9 +7,13 @@ run apt-get update && \
 
 run apt-get install -y rpm
 
-run mkdir -p /game/build/game /game/code /game/packs
+run apt-get install -y nsis
+
+run mkdir -p /game/build/game /game/code /game/packs /game/empacotamento
 
 add . /game/code
+
+add build /game/empacotamento
 
 cmd cd /game/build/game && cmake -DRELEASE_BUILD=ON /game/code && make                 && \
     cpack --config CPackConfig.cmake -G DEB -D CPACK_DEBIAN_PACKAGE_ARCHITECTURE=i386  && \
@@ -17,3 +21,8 @@ cmd cd /game/build/game && cmake -DRELEASE_BUILD=ON /game/code && make          
     cpack --config CPackConfig.cmake -G RPM -D CPACK_RPM_PACKAGE_ARCHITECTURE=i386     && \
     cpack --config CPackConfig.cmake -G RPM -D CPACK_RPM_PACKAGE_ARCHITECTURE=x86_64   && \
     cp *.rpm *.deb /game/packs
+    
+
+cmd cd /game/empacotamento && \
+    makensis windows_pack.nsi && \
+    cp *.exe /game/packs

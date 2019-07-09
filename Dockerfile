@@ -20,4 +20,4 @@ cmd cd /game/build/game && cmake -DRELEASE_BUILD=ON /game/code && make          
     cpack --config CPackConfig.cmake -G RPM -D CPACK_RPM_PACKAGE_ARCHITECTURE=x86_64   && \
 cp *.rpm *.deb /game/packs
 
-cmd makensis windows_pack.nsi
+run makensis windows_pack.nsi
