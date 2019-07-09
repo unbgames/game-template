@@ -1,0 +1,1 @@
+Licença teste para o jogo. Para modificá-la, basta alterar o texto no arquivo license.txt

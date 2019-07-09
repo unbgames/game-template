@@ -1,8 +1,6 @@
 
 # Created by https://www.gitignore.io/api/vim,macos,c++,cmake
 
-build
-
 ### C++ ###
 # Prerequisites
 *.d
@@ -33,7 +31,6 @@ build
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
 
